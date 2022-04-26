@@ -271,9 +271,9 @@ require (
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/ini.v1 v1.57.0 // indirect
 	gopkg.in/tomb.v1 v1.0.0-20141024135613-dd632973f1e7 // indirect
-	k8s.io/api v0.23.5 // indirect
-	k8s.io/apimachinery v0.23.5 // indirect
-	k8s.io/client-go v0.23.5 // indirect
+	k8s.io/api v0.23.6 // indirect
+	k8s.io/apimachinery v0.23.6 // indirect
+	k8s.io/client-go v0.23.6 // indirect
 	k8s.io/klog/v2 v2.40.1 // indirect
 	k8s.io/kube-openapi v0.0.0-20211115234752-e816edb12b65 // indirect
 	k8s.io/utils v0.0.0-20211116205334-6203023598ed // indirect
@@ -292,11 +292,11 @@ replace github.com/Azure/azure-sdk-for-go => github.com/Azure/azure-sdk-for-go v
 
 replace github.com/Azure/azure-storage-blob-go => github.com/MasslessParticle/azure-storage-blob-go v0.14.1-0.20220216145902-b5e698eff68e
 
-replace k8s.io/client-go => k8s.io/client-go v0.23.5
+replace k8s.io/client-go => k8s.io/client-go v0.23.6
 
-replace k8s.io/api => k8s.io/api v0.23.5
+replace k8s.io/api => k8s.io/api v0.23.6
 
-replace k8s.io/apimachinery => k8s.io/apimachinery v0.23.5
+replace k8s.io/apimachinery => k8s.io/apimachinery v0.23.6
 
 replace github.com/hashicorp/consul => github.com/hashicorp/consul v1.5.1
 
@@ -318,7 +318,4 @@ replace gopkg.in/Graylog2/go-gelf.v2 => github.com/grafana/go-gelf v0.0.0-202111
 
 replace github.com/cloudflare/cloudflare-go => github.com/cyriltovena/cloudflare-go v0.27.1-0.20211118103540-ff77400bcb93
 
-exclude (
-	k8s.io/client-go v12.0.0+incompatible
-	k8s.io/client-go v8.0.0+incompatible
-)
+exclude k8s.io/client-go v8.0.0+incompatible
