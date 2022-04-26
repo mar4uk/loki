@@ -4,9 +4,9 @@ import (
 	"context"
 	"errors"
 
-	"github.com/grafana/loki/pkg/configs/client"
-	"github.com/grafana/loki/pkg/configs/userconfig"
-	"github.com/grafana/loki/pkg/ruler/rulespb"
+	"github.com/mar4uk/loki/pkg/configs/client"
+	"github.com/mar4uk/loki/pkg/configs/userconfig"
+	"github.com/mar4uk/loki/pkg/ruler/rulespb"
 )
 
 const (

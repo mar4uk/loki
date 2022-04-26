@@ -9,10 +9,10 @@ import (
 	otlog "github.com/opentracing/opentracing-go/log"
 	"github.com/pkg/errors"
 
-	"github.com/grafana/loki/pkg/storage/chunk"
-	"github.com/grafana/loki/pkg/storage/chunk/client"
-	"github.com/grafana/loki/pkg/storage/config"
-	"github.com/grafana/loki/pkg/util/math"
+	"github.com/mar4uk/loki/pkg/storage/chunk"
+	"github.com/mar4uk/loki/pkg/storage/chunk/client"
+	"github.com/mar4uk/loki/pkg/storage/config"
+	"github.com/mar4uk/loki/pkg/util/math"
 )
 
 type bigtableObjectClient struct {

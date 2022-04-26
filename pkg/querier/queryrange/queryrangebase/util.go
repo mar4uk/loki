@@ -8,7 +8,7 @@ import (
 
 	"github.com/grafana/dskit/tenant"
 
-	"github.com/grafana/loki/pkg/util/validation"
+	"github.com/mar4uk/loki/pkg/util/validation"
 )
 
 // RequestResponse contains a request response and the respective request that was used.

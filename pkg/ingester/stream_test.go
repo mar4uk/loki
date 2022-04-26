@@ -14,12 +14,12 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/weaveworks/common/httpgrpc"
 
-	"github.com/grafana/loki/pkg/chunkenc"
-	"github.com/grafana/loki/pkg/iter"
-	"github.com/grafana/loki/pkg/logproto"
-	"github.com/grafana/loki/pkg/logql/log"
-	"github.com/grafana/loki/pkg/util/flagext"
-	"github.com/grafana/loki/pkg/validation"
+	"github.com/mar4uk/loki/pkg/chunkenc"
+	"github.com/mar4uk/loki/pkg/iter"
+	"github.com/mar4uk/loki/pkg/logproto"
+	"github.com/mar4uk/loki/pkg/logql/log"
+	"github.com/mar4uk/loki/pkg/util/flagext"
+	"github.com/mar4uk/loki/pkg/validation"
 )
 
 var (

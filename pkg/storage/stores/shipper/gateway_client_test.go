@@ -22,17 +22,17 @@ import (
 	"google.golang.org/grpc/credentials/insecure"
 	"google.golang.org/grpc/test/bufconn"
 
-	"github.com/grafana/loki/pkg/storage/chunk/client/local"
-	"github.com/grafana/loki/pkg/storage/stores/series/index"
-	"github.com/grafana/loki/pkg/storage/stores/shipper/downloads"
-	"github.com/grafana/loki/pkg/storage/stores/shipper/indexgateway"
-	"github.com/grafana/loki/pkg/storage/stores/shipper/indexgateway/indexgatewaypb"
-	"github.com/grafana/loki/pkg/storage/stores/shipper/storage"
-	"github.com/grafana/loki/pkg/storage/stores/shipper/testutil"
-	"github.com/grafana/loki/pkg/storage/stores/shipper/util"
-	util_log "github.com/grafana/loki/pkg/util/log"
-	util_math "github.com/grafana/loki/pkg/util/math"
-	"github.com/grafana/loki/pkg/validation"
+	"github.com/mar4uk/loki/pkg/storage/chunk/client/local"
+	"github.com/mar4uk/loki/pkg/storage/stores/series/index"
+	"github.com/mar4uk/loki/pkg/storage/stores/shipper/downloads"
+	"github.com/mar4uk/loki/pkg/storage/stores/shipper/indexgateway"
+	"github.com/mar4uk/loki/pkg/storage/stores/shipper/indexgateway/indexgatewaypb"
+	"github.com/mar4uk/loki/pkg/storage/stores/shipper/storage"
+	"github.com/mar4uk/loki/pkg/storage/stores/shipper/testutil"
+	"github.com/mar4uk/loki/pkg/storage/stores/shipper/util"
+	util_log "github.com/mar4uk/loki/pkg/util/log"
+	util_math "github.com/mar4uk/loki/pkg/util/math"
+	"github.com/mar4uk/loki/pkg/validation"
 )
 
 const (

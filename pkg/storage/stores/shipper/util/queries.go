@@ -6,9 +6,9 @@ import (
 
 	"github.com/go-kit/log/level"
 
-	"github.com/grafana/loki/pkg/storage/stores/series/index"
-	util_math "github.com/grafana/loki/pkg/util/math"
-	"github.com/grafana/loki/pkg/util/spanlogger"
+	"github.com/mar4uk/loki/pkg/storage/stores/series/index"
+	util_math "github.com/mar4uk/loki/pkg/util/math"
+	"github.com/mar4uk/loki/pkg/util/spanlogger"
 )
 
 const maxQueriesPerGoroutine = 100

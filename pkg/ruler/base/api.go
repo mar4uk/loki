@@ -22,10 +22,10 @@ import (
 
 	"github.com/grafana/dskit/tenant"
 
-	"github.com/grafana/loki/pkg/logproto"
-	"github.com/grafana/loki/pkg/ruler/rulespb"
-	"github.com/grafana/loki/pkg/ruler/rulestore"
-	util_log "github.com/grafana/loki/pkg/util/log"
+	"github.com/mar4uk/loki/pkg/logproto"
+	"github.com/mar4uk/loki/pkg/ruler/rulespb"
+	"github.com/mar4uk/loki/pkg/ruler/rulestore"
+	util_log "github.com/mar4uk/loki/pkg/util/log"
 )
 
 // In order to reimplement the prometheus rules API, a large amount of code was copied over

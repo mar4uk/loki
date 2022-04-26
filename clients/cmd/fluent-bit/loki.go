@@ -17,12 +17,12 @@ import (
 	"github.com/prometheus/common/model"
 	"github.com/weaveworks/common/logging"
 
-	"github.com/grafana/loki/clients/pkg/promtail/api"
-	"github.com/grafana/loki/clients/pkg/promtail/client"
+	"github.com/mar4uk/loki/clients/pkg/promtail/api"
+	"github.com/mar4uk/loki/clients/pkg/promtail/client"
 
-	"github.com/grafana/loki/pkg/util"
+	"github.com/mar4uk/loki/pkg/util"
 
-	"github.com/grafana/loki/pkg/logproto"
+	"github.com/mar4uk/loki/pkg/logproto"
 )
 
 var (

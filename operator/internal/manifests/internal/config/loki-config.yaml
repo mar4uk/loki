@@ -91,7 +91,7 @@ ingester_client:
 #
 # Values for not exposed fields are taken from the grafana/loki production
 # configuration manifests.
-# (See https://github.com/grafana/loki/blob/main/production/ksonnet/loki/config.libsonnet)
+# (See https://github.com/mar4uk/loki/blob/main/production/ksonnet/loki/config.libsonnet)
 limits_config:
   ingestion_rate_strategy: global
   ingestion_rate_mb: {{ .Stack.Limits.Global.IngestionLimits.IngestionRate }}
@@ -105,7 +105,7 @@ limits_config:
   enforce_metric_name: false
   # Keep max_streams_per_user always to 0 to default
   # using max_global_streams_per_user always.
-  # (See https://github.com/grafana/loki/blob/main/pkg/ingester/limiter.go#L73)
+  # (See https://github.com/mar4uk/loki/blob/main/pkg/ingester/limiter.go#L73)
   max_streams_per_user: 0
   max_line_size: {{ .Stack.Limits.Global.IngestionLimits.MaxLineSize }}
   max_entries_limit_per_query: {{ .Stack.Limits.Global.QueryLimits.MaxEntriesLimitPerQuery }}

@@ -5,13 +5,13 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/grafana/loki/pkg/storage/chunk/client"
-	"github.com/grafana/loki/pkg/storage/chunk/client/aws"
-	"github.com/grafana/loki/pkg/storage/chunk/client/cassandra"
-	"github.com/grafana/loki/pkg/storage/chunk/client/gcp"
-	"github.com/grafana/loki/pkg/storage/chunk/client/local"
-	"github.com/grafana/loki/pkg/storage/chunk/client/testutils"
-	"github.com/grafana/loki/pkg/storage/stores/series/index"
+	"github.com/mar4uk/loki/pkg/storage/chunk/client"
+	"github.com/mar4uk/loki/pkg/storage/chunk/client/aws"
+	"github.com/mar4uk/loki/pkg/storage/chunk/client/cassandra"
+	"github.com/mar4uk/loki/pkg/storage/chunk/client/gcp"
+	"github.com/mar4uk/loki/pkg/storage/chunk/client/local"
+	"github.com/mar4uk/loki/pkg/storage/chunk/client/testutils"
+	"github.com/mar4uk/loki/pkg/storage/stores/series/index"
 )
 
 const (

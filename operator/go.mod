@@ -1,4 +1,4 @@
-module github.com/grafana/loki/operator
+module github.com/mar4uk/loki/operator
 
 go 1.17
 

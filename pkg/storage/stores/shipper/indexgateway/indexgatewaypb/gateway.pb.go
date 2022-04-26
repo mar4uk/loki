@@ -9,7 +9,7 @@ import (
 	fmt "fmt"
 	_ "github.com/gogo/protobuf/gogoproto"
 	proto "github.com/gogo/protobuf/proto"
-	logproto "github.com/grafana/loki/pkg/logproto"
+	logproto "github.com/mar4uk/loki/pkg/logproto"
 	github_com_prometheus_common_model "github.com/prometheus/common/model"
 	grpc "google.golang.org/grpc"
 	codes "google.golang.org/grpc/codes"

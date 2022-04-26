@@ -13,11 +13,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/grafana/loki/pkg/logcli/output"
-	"github.com/grafana/loki/pkg/loghttp"
-	"github.com/grafana/loki/pkg/logproto"
-	"github.com/grafana/loki/pkg/logql"
-	"github.com/grafana/loki/pkg/util/marshal"
+	"github.com/mar4uk/loki/pkg/logcli/output"
+	"github.com/mar4uk/loki/pkg/loghttp"
+	"github.com/mar4uk/loki/pkg/logproto"
+	"github.com/mar4uk/loki/pkg/logql"
+	"github.com/mar4uk/loki/pkg/util/marshal"
 )
 
 func Test_commonLabels(t *testing.T) {

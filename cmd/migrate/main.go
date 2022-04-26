@@ -17,19 +17,19 @@ import (
 
 	"github.com/grafana/dskit/tenant"
 
-	"github.com/grafana/loki/pkg/logql/syntax"
+	"github.com/mar4uk/loki/pkg/logql/syntax"
 
 	"github.com/prometheus/prometheus/model/labels"
 	"github.com/weaveworks/common/user"
 
-	"github.com/grafana/loki/pkg/loki"
-	"github.com/grafana/loki/pkg/storage"
-	"github.com/grafana/loki/pkg/storage/chunk"
-	"github.com/grafana/loki/pkg/storage/config"
-	"github.com/grafana/loki/pkg/util"
-	"github.com/grafana/loki/pkg/util/cfg"
-	util_log "github.com/grafana/loki/pkg/util/log"
-	"github.com/grafana/loki/pkg/validation"
+	"github.com/mar4uk/loki/pkg/loki"
+	"github.com/mar4uk/loki/pkg/storage"
+	"github.com/mar4uk/loki/pkg/storage/chunk"
+	"github.com/mar4uk/loki/pkg/storage/config"
+	"github.com/mar4uk/loki/pkg/util"
+	"github.com/mar4uk/loki/pkg/util/cfg"
+	util_log "github.com/mar4uk/loki/pkg/util/log"
+	"github.com/mar4uk/loki/pkg/validation"
 )
 
 type syncRange struct {

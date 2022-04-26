@@ -3,7 +3,7 @@ package manifests_test
 import (
 	"testing"
 
-	"github.com/grafana/loki/operator/internal/manifests"
+	"github.com/mar4uk/loki/operator/internal/manifests"
 
 	"github.com/ViaQ/logerr/log"
 	routev1 "github.com/openshift/api/route/v1"

@@ -17,12 +17,12 @@ import (
 
 	"github.com/grafana/dskit/tenant"
 
-	"github.com/grafana/loki/pkg/chunkenc"
-	"github.com/grafana/loki/pkg/storage/chunk"
-	"github.com/grafana/loki/pkg/usagestats"
-	"github.com/grafana/loki/pkg/util"
-	loki_util "github.com/grafana/loki/pkg/util"
-	util_log "github.com/grafana/loki/pkg/util/log"
+	"github.com/mar4uk/loki/pkg/chunkenc"
+	"github.com/mar4uk/loki/pkg/storage/chunk"
+	"github.com/mar4uk/loki/pkg/usagestats"
+	"github.com/mar4uk/loki/pkg/util"
+	loki_util "github.com/mar4uk/loki/pkg/util"
+	util_log "github.com/mar4uk/loki/pkg/util/log"
 )
 
 var (

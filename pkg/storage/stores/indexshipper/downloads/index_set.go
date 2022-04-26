@@ -14,12 +14,12 @@ import (
 	"github.com/go-kit/log/level"
 	"github.com/grafana/dskit/concurrency"
 
-	"github.com/grafana/loki/pkg/storage/chunk/client/util"
-	"github.com/grafana/loki/pkg/storage/stores/indexshipper/index"
-	"github.com/grafana/loki/pkg/storage/stores/shipper/storage"
-	shipper_util "github.com/grafana/loki/pkg/storage/stores/shipper/util"
-	util_log "github.com/grafana/loki/pkg/util/log"
-	"github.com/grafana/loki/pkg/util/spanlogger"
+	"github.com/mar4uk/loki/pkg/storage/chunk/client/util"
+	"github.com/mar4uk/loki/pkg/storage/stores/indexshipper/index"
+	"github.com/mar4uk/loki/pkg/storage/stores/shipper/storage"
+	shipper_util "github.com/mar4uk/loki/pkg/storage/stores/shipper/util"
+	util_log "github.com/mar4uk/loki/pkg/util/log"
+	"github.com/mar4uk/loki/pkg/util/spanlogger"
 )
 
 type IndexSet interface {

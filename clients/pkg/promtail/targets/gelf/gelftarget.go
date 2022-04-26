@@ -14,11 +14,11 @@ import (
 	"github.com/prometheus/prometheus/model/relabel"
 	"gopkg.in/Graylog2/go-gelf.v2/gelf"
 
-	"github.com/grafana/loki/clients/pkg/promtail/api"
-	"github.com/grafana/loki/clients/pkg/promtail/scrapeconfig"
-	"github.com/grafana/loki/clients/pkg/promtail/targets/target"
+	"github.com/mar4uk/loki/clients/pkg/promtail/api"
+	"github.com/mar4uk/loki/clients/pkg/promtail/scrapeconfig"
+	"github.com/mar4uk/loki/clients/pkg/promtail/targets/target"
 
-	"github.com/grafana/loki/pkg/logproto"
+	"github.com/mar4uk/loki/pkg/logproto"
 )
 
 // SeverityLevels maps severity levels to severity string levels.

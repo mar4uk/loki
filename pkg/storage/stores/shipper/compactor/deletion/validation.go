@@ -5,7 +5,7 @@ import (
 
 	"github.com/prometheus/prometheus/model/labels"
 
-	"github.com/grafana/loki/pkg/logql/syntax"
+	"github.com/mar4uk/loki/pkg/logql/syntax"
 )
 
 var (

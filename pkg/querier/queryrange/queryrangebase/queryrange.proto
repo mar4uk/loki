@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package queryrangebase;
 
-option go_package = "github.com/grafana/loki/pkg/querier/queryrange/queryrangebase";
+option go_package = "github.com/mar4uk/loki/pkg/querier/queryrange/queryrangebase";
 
 import "github.com/gogo/protobuf/gogoproto/gogo.proto";
 import "google/protobuf/duration.proto";
@@ -46,7 +46,7 @@ message PrometheusData {
 }
 
 message SampleStream {
-  repeated logproto.LegacyLabelPair labels = 1 [(gogoproto.nullable) = false, (gogoproto.jsontag) = "metric", (gogoproto.customtype) = "github.com/grafana/loki/pkg/logproto.LabelAdapter"];
+  repeated logproto.LegacyLabelPair labels = 1 [(gogoproto.nullable) = false, (gogoproto.jsontag) = "metric", (gogoproto.customtype) = "github.com/mar4uk/loki/pkg/logproto.LabelAdapter"];
   repeated logproto.LegacySample samples = 2 [(gogoproto.nullable) = false, (gogoproto.jsontag) = "values"];
 }
 

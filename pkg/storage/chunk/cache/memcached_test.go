@@ -11,7 +11,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/atomic"
 
-	"github.com/grafana/loki/pkg/storage/chunk/cache"
+	"github.com/mar4uk/loki/pkg/storage/chunk/cache"
 )
 
 func TestMemcached(t *testing.T) {

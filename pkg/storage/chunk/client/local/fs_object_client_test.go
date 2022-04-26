@@ -13,7 +13,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/grafana/loki/pkg/storage/chunk/client/util"
+	"github.com/mar4uk/loki/pkg/storage/chunk/client/util"
 )
 
 func TestFSObjectClient_DeleteChunksBefore(t *testing.T) {

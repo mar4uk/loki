@@ -19,14 +19,14 @@ import (
 	"github.com/weaveworks/common/instrument"
 	"google.golang.org/grpc"
 
-	"github.com/grafana/loki/pkg/distributor/clientpool"
-	"github.com/grafana/loki/pkg/storage/stores/series/index"
-	"github.com/grafana/loki/pkg/storage/stores/shipper/indexgateway"
-	"github.com/grafana/loki/pkg/storage/stores/shipper/indexgateway/indexgatewaypb"
-	shipper_util "github.com/grafana/loki/pkg/storage/stores/shipper/util"
-	"github.com/grafana/loki/pkg/util"
-	util_log "github.com/grafana/loki/pkg/util/log"
-	util_math "github.com/grafana/loki/pkg/util/math"
+	"github.com/mar4uk/loki/pkg/distributor/clientpool"
+	"github.com/mar4uk/loki/pkg/storage/stores/series/index"
+	"github.com/mar4uk/loki/pkg/storage/stores/shipper/indexgateway"
+	"github.com/mar4uk/loki/pkg/storage/stores/shipper/indexgateway/indexgatewaypb"
+	shipper_util "github.com/mar4uk/loki/pkg/storage/stores/shipper/util"
+	"github.com/mar4uk/loki/pkg/util"
+	util_log "github.com/mar4uk/loki/pkg/util/log"
+	util_math "github.com/mar4uk/loki/pkg/util/math"
 )
 
 const (

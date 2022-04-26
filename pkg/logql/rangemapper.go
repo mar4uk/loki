@@ -7,8 +7,8 @@ import (
 	"github.com/go-kit/log/level"
 	"github.com/pkg/errors"
 
-	"github.com/grafana/loki/pkg/logql/syntax"
-	util_log "github.com/grafana/loki/pkg/util/log"
+	"github.com/mar4uk/loki/pkg/logql/syntax"
+	util_log "github.com/mar4uk/loki/pkg/util/log"
 )
 
 var splittableVectorOp = map[string]struct{}{

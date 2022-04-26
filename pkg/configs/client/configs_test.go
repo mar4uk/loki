@@ -9,7 +9,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/grafana/loki/pkg/configs/userconfig"
+	"github.com/mar4uk/loki/pkg/configs/userconfig"
 )
 
 var response = `{

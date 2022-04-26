@@ -11,9 +11,9 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/grafana/loki/pkg/logqlmodel"
-	storage_errors "github.com/grafana/loki/pkg/storage/errors"
-	"github.com/grafana/loki/pkg/util"
+	"github.com/mar4uk/loki/pkg/logqlmodel"
+	storage_errors "github.com/mar4uk/loki/pkg/storage/errors"
+	"github.com/mar4uk/loki/pkg/util"
 )
 
 // StatusClientClosedRequest is the status code for when a client request cancellation of an http request

@@ -6,7 +6,7 @@ import (
 	"github.com/prometheus/common/model"
 	"github.com/prometheus/prometheus/model/labels"
 
-	"github.com/grafana/loki/pkg/storage/stores/tsdb/index"
+	"github.com/mar4uk/loki/pkg/storage/stores/tsdb/index"
 )
 
 type Series struct {

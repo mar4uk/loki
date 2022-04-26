@@ -4,8 +4,8 @@ import (
 	"context"
 	"errors"
 
-	"github.com/grafana/loki/pkg/storage/chunk"
-	"github.com/grafana/loki/pkg/storage/stores/series/index"
+	"github.com/mar4uk/loki/pkg/storage/chunk"
+	"github.com/mar4uk/loki/pkg/storage/stores/series/index"
 )
 
 var (

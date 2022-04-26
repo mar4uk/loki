@@ -14,17 +14,17 @@ import (
 
 	"github.com/grafana/dskit/tenant"
 
-	"github.com/grafana/loki/pkg/loghttp"
-	loghttp_legacy "github.com/grafana/loki/pkg/loghttp/legacy"
-	"github.com/grafana/loki/pkg/logql"
-	"github.com/grafana/loki/pkg/logql/syntax"
-	"github.com/grafana/loki/pkg/logqlmodel"
-	util_log "github.com/grafana/loki/pkg/util/log"
-	"github.com/grafana/loki/pkg/util/marshal"
-	marshal_legacy "github.com/grafana/loki/pkg/util/marshal/legacy"
-	serverutil "github.com/grafana/loki/pkg/util/server"
-	util_validation "github.com/grafana/loki/pkg/util/validation"
-	"github.com/grafana/loki/pkg/validation"
+	"github.com/mar4uk/loki/pkg/loghttp"
+	loghttp_legacy "github.com/mar4uk/loki/pkg/loghttp/legacy"
+	"github.com/mar4uk/loki/pkg/logql"
+	"github.com/mar4uk/loki/pkg/logql/syntax"
+	"github.com/mar4uk/loki/pkg/logqlmodel"
+	util_log "github.com/mar4uk/loki/pkg/util/log"
+	"github.com/mar4uk/loki/pkg/util/marshal"
+	marshal_legacy "github.com/mar4uk/loki/pkg/util/marshal/legacy"
+	serverutil "github.com/mar4uk/loki/pkg/util/server"
+	util_validation "github.com/mar4uk/loki/pkg/util/validation"
+	"github.com/mar4uk/loki/pkg/validation"
 )
 
 const (

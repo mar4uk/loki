@@ -11,8 +11,8 @@ import (
 	"github.com/go-kit/log/level"
 	"github.com/prometheus/common/model"
 
-	"github.com/grafana/loki/pkg/storage/config"
-	util_log "github.com/grafana/loki/pkg/util/log"
+	"github.com/mar4uk/loki/pkg/storage/config"
+	util_log "github.com/mar4uk/loki/pkg/util/log"
 )
 
 const (

@@ -11,9 +11,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/grafana/loki/pkg/logproto"
-	"github.com/grafana/loki/pkg/logqlmodel/stats"
-	"github.com/grafana/loki/pkg/querier/queryrange/queryrangebase"
+	"github.com/mar4uk/loki/pkg/logproto"
+	"github.com/mar4uk/loki/pkg/logqlmodel/stats"
+	"github.com/mar4uk/loki/pkg/querier/queryrange/queryrangebase"
 )
 
 func TestStatsCollectorMiddleware(t *testing.T) {

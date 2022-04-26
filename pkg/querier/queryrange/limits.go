@@ -15,12 +15,12 @@ import (
 
 	"github.com/grafana/dskit/tenant"
 
-	"github.com/grafana/loki/pkg/logproto"
-	"github.com/grafana/loki/pkg/logql"
-	"github.com/grafana/loki/pkg/querier/queryrange/queryrangebase"
-	"github.com/grafana/loki/pkg/util"
-	"github.com/grafana/loki/pkg/util/spanlogger"
-	"github.com/grafana/loki/pkg/util/validation"
+	"github.com/mar4uk/loki/pkg/logproto"
+	"github.com/mar4uk/loki/pkg/logql"
+	"github.com/mar4uk/loki/pkg/querier/queryrange/queryrangebase"
+	"github.com/mar4uk/loki/pkg/util"
+	"github.com/mar4uk/loki/pkg/util/spanlogger"
+	"github.com/mar4uk/loki/pkg/util/validation"
 )
 
 const (

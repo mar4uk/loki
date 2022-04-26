@@ -14,11 +14,11 @@ import (
 	"github.com/uber/jaeger-client-go"
 	"github.com/weaveworks/common/user"
 
-	"github.com/grafana/loki/pkg/logproto"
-	"github.com/grafana/loki/pkg/logqlmodel"
-	"github.com/grafana/loki/pkg/logqlmodel/stats"
-	"github.com/grafana/loki/pkg/util/httpreq"
-	util_log "github.com/grafana/loki/pkg/util/log"
+	"github.com/mar4uk/loki/pkg/logproto"
+	"github.com/mar4uk/loki/pkg/logqlmodel"
+	"github.com/mar4uk/loki/pkg/logqlmodel/stats"
+	"github.com/mar4uk/loki/pkg/util/httpreq"
+	util_log "github.com/mar4uk/loki/pkg/util/log"
 )
 
 func TestQueryType(t *testing.T) {

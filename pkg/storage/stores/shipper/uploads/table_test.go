@@ -16,10 +16,10 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/weaveworks/common/user"
 
-	"github.com/grafana/loki/pkg/storage/chunk/client/local"
-	"github.com/grafana/loki/pkg/storage/stores/series/index"
-	"github.com/grafana/loki/pkg/storage/stores/shipper/storage"
-	"github.com/grafana/loki/pkg/storage/stores/shipper/testutil"
+	"github.com/mar4uk/loki/pkg/storage/chunk/client/local"
+	"github.com/mar4uk/loki/pkg/storage/stores/series/index"
+	"github.com/mar4uk/loki/pkg/storage/stores/shipper/storage"
+	"github.com/mar4uk/loki/pkg/storage/stores/shipper/testutil"
 )
 
 const (

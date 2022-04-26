@@ -1,10 +1,10 @@
 package deletion
 
 import (
-	"github.com/grafana/loki/pkg/logproto"
-	"github.com/grafana/loki/pkg/logql"
-	"github.com/grafana/loki/pkg/logql/log"
-	"github.com/grafana/loki/pkg/logql/syntax"
+	"github.com/mar4uk/loki/pkg/logproto"
+	"github.com/mar4uk/loki/pkg/logql"
+	"github.com/mar4uk/loki/pkg/logql/log"
+	"github.com/mar4uk/loki/pkg/logql/syntax"
 )
 
 func SetupPipeline(req logql.SelectLogParams, p log.Pipeline) (log.Pipeline, error) {

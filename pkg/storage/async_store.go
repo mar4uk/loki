@@ -9,13 +9,13 @@ import (
 	"github.com/prometheus/common/model"
 	"github.com/prometheus/prometheus/model/labels"
 
-	"github.com/grafana/loki/pkg/storage/chunk"
-	"github.com/grafana/loki/pkg/storage/chunk/fetcher"
-	"github.com/grafana/loki/pkg/storage/config"
-	"github.com/grafana/loki/pkg/storage/stores"
-	"github.com/grafana/loki/pkg/util/spanlogger"
+	"github.com/mar4uk/loki/pkg/storage/chunk"
+	"github.com/mar4uk/loki/pkg/storage/chunk/fetcher"
+	"github.com/mar4uk/loki/pkg/storage/config"
+	"github.com/mar4uk/loki/pkg/storage/stores"
+	"github.com/mar4uk/loki/pkg/util/spanlogger"
 
-	util_log "github.com/grafana/loki/pkg/util/log"
+	util_log "github.com/mar4uk/loki/pkg/util/log"
 )
 
 type IngesterQuerier interface {

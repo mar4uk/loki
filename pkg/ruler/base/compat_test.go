@@ -18,7 +18,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/weaveworks/common/httpgrpc"
 
-	"github.com/grafana/loki/pkg/logproto"
+	"github.com/mar4uk/loki/pkg/logproto"
 )
 
 type fakePusher struct {

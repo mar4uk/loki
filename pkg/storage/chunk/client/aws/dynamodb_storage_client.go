@@ -28,15 +28,15 @@ import (
 	"github.com/weaveworks/common/instrument"
 	"golang.org/x/time/rate"
 
-	"github.com/grafana/loki/pkg/storage/chunk"
-	chunkclient "github.com/grafana/loki/pkg/storage/chunk/client"
-	client_util "github.com/grafana/loki/pkg/storage/chunk/client/util"
-	"github.com/grafana/loki/pkg/storage/config"
-	"github.com/grafana/loki/pkg/storage/stores/series/index"
-	"github.com/grafana/loki/pkg/util"
-	"github.com/grafana/loki/pkg/util/log"
-	"github.com/grafana/loki/pkg/util/math"
-	"github.com/grafana/loki/pkg/util/spanlogger"
+	"github.com/mar4uk/loki/pkg/storage/chunk"
+	chunkclient "github.com/mar4uk/loki/pkg/storage/chunk/client"
+	client_util "github.com/mar4uk/loki/pkg/storage/chunk/client/util"
+	"github.com/mar4uk/loki/pkg/storage/config"
+	"github.com/mar4uk/loki/pkg/storage/stores/series/index"
+	"github.com/mar4uk/loki/pkg/util"
+	"github.com/mar4uk/loki/pkg/util/log"
+	"github.com/mar4uk/loki/pkg/util/math"
+	"github.com/mar4uk/loki/pkg/util/spanlogger"
 )
 
 const (

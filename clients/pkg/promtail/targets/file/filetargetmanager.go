@@ -20,13 +20,13 @@ import (
 	"github.com/prometheus/prometheus/model/labels"
 	"github.com/prometheus/prometheus/model/relabel"
 
-	"github.com/grafana/loki/clients/pkg/logentry/stages"
-	"github.com/grafana/loki/clients/pkg/promtail/api"
-	"github.com/grafana/loki/clients/pkg/promtail/positions"
-	"github.com/grafana/loki/clients/pkg/promtail/scrapeconfig"
-	"github.com/grafana/loki/clients/pkg/promtail/targets/target"
+	"github.com/mar4uk/loki/clients/pkg/logentry/stages"
+	"github.com/mar4uk/loki/clients/pkg/promtail/api"
+	"github.com/mar4uk/loki/clients/pkg/promtail/positions"
+	"github.com/mar4uk/loki/clients/pkg/promtail/scrapeconfig"
+	"github.com/mar4uk/loki/clients/pkg/promtail/targets/target"
 
-	"github.com/grafana/loki/pkg/util"
+	"github.com/mar4uk/loki/pkg/util"
 )
 
 const (

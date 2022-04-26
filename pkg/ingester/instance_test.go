@@ -10,18 +10,18 @@ import (
 	"testing"
 	"time"
 
-	"github.com/grafana/loki/pkg/logql/syntax"
-	"github.com/grafana/loki/pkg/querier/astmapper"
-	"github.com/grafana/loki/pkg/storage/chunk"
+	"github.com/mar4uk/loki/pkg/logql/syntax"
+	"github.com/mar4uk/loki/pkg/querier/astmapper"
+	"github.com/mar4uk/loki/pkg/storage/chunk"
 
 	"github.com/pkg/errors"
 	"github.com/prometheus/prometheus/model/labels"
 	"github.com/stretchr/testify/require"
 
-	"github.com/grafana/loki/pkg/logproto"
-	"github.com/grafana/loki/pkg/logql"
-	loki_runtime "github.com/grafana/loki/pkg/runtime"
-	"github.com/grafana/loki/pkg/validation"
+	"github.com/mar4uk/loki/pkg/logproto"
+	"github.com/mar4uk/loki/pkg/logql"
+	loki_runtime "github.com/mar4uk/loki/pkg/runtime"
+	"github.com/mar4uk/loki/pkg/validation"
 )
 
 func defaultConfig() *Config {

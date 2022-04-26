@@ -15,11 +15,11 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/weaveworks/common/user"
 
-	"github.com/grafana/loki/pkg/ingester/client"
-	"github.com/grafana/loki/pkg/logproto"
-	loki_runtime "github.com/grafana/loki/pkg/runtime"
-	"github.com/grafana/loki/pkg/storage/chunk"
-	"github.com/grafana/loki/pkg/validation"
+	"github.com/mar4uk/loki/pkg/ingester/client"
+	"github.com/mar4uk/loki/pkg/logproto"
+	loki_runtime "github.com/mar4uk/loki/pkg/runtime"
+	"github.com/mar4uk/loki/pkg/storage/chunk"
+	"github.com/mar4uk/loki/pkg/validation"
 )
 
 type MemoryWALReader struct {

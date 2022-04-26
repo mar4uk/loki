@@ -10,11 +10,11 @@ import (
 	"github.com/grafana/dskit/flagext"
 	"github.com/stretchr/testify/require"
 
-	"github.com/grafana/loki/pkg/storage"
-	"github.com/grafana/loki/pkg/storage/chunk/client/local"
-	"github.com/grafana/loki/pkg/storage/config"
-	"github.com/grafana/loki/pkg/storage/stores/shipper/testutil"
-	loki_net "github.com/grafana/loki/pkg/util/net"
+	"github.com/mar4uk/loki/pkg/storage"
+	"github.com/mar4uk/loki/pkg/storage/chunk/client/local"
+	"github.com/mar4uk/loki/pkg/storage/config"
+	"github.com/mar4uk/loki/pkg/storage/stores/shipper/testutil"
+	loki_net "github.com/mar4uk/loki/pkg/util/net"
 )
 
 func setupTestCompactor(t *testing.T, tempDir string, clientMetrics storage.ClientMetrics) *Compactor {

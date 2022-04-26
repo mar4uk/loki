@@ -18,10 +18,10 @@ import (
 	"go.uber.org/atomic"
 	"google.golang.org/grpc"
 
-	"github.com/grafana/loki/pkg/lokifrontend/frontend/v2/frontendv2pb"
-	"github.com/grafana/loki/pkg/querier/stats"
-	"github.com/grafana/loki/pkg/scheduler/schedulerpb"
-	"github.com/grafana/loki/pkg/util/test"
+	"github.com/mar4uk/loki/pkg/lokifrontend/frontend/v2/frontendv2pb"
+	"github.com/mar4uk/loki/pkg/querier/stats"
+	"github.com/mar4uk/loki/pkg/scheduler/schedulerpb"
+	"github.com/mar4uk/loki/pkg/util/test"
 )
 
 const testFrontendWorkerConcurrency = 5
@@ -178,7 +178,7 @@ func TestFrontendCancellation(t *testing.T) {
 
 // If FrontendWorkers are busy, cancellation passed by Query frontend may not reach
 // all the frontend workers thus not reaching the scheduler as well.
-// Issue: https://github.com/grafana/loki/issues/5132
+// Issue: https://github.com/mar4uk/loki/issues/5132
 func TestFrontendWorkerCancellation(t *testing.T) {
 	f, ms := setupFrontend(t, nil)
 

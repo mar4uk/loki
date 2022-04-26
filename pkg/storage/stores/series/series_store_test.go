@@ -18,14 +18,14 @@ import (
 	"github.com/weaveworks/common/test"
 	"github.com/weaveworks/common/user"
 
-	"github.com/grafana/loki/pkg/ingester/client"
-	"github.com/grafana/loki/pkg/storage"
-	"github.com/grafana/loki/pkg/storage/chunk"
-	"github.com/grafana/loki/pkg/storage/chunk/cache"
-	"github.com/grafana/loki/pkg/storage/chunk/client/testutils"
-	"github.com/grafana/loki/pkg/storage/config"
-	"github.com/grafana/loki/pkg/storage/stores/series/index"
-	"github.com/grafana/loki/pkg/validation"
+	"github.com/mar4uk/loki/pkg/ingester/client"
+	"github.com/mar4uk/loki/pkg/storage"
+	"github.com/mar4uk/loki/pkg/storage/chunk"
+	"github.com/mar4uk/loki/pkg/storage/chunk/cache"
+	"github.com/mar4uk/loki/pkg/storage/chunk/client/testutils"
+	"github.com/mar4uk/loki/pkg/storage/config"
+	"github.com/mar4uk/loki/pkg/storage/stores/series/index"
+	"github.com/mar4uk/loki/pkg/validation"
 )
 
 type configFactory func() config.ChunkStoreConfig

@@ -25,10 +25,10 @@ import (
 
 	"github.com/grafana/dskit/tenant"
 
-	"github.com/grafana/loki/pkg/lokifrontend/frontend/v2/frontendv2pb"
-	"github.com/grafana/loki/pkg/querier/stats"
-	lokigrpc "github.com/grafana/loki/pkg/util/httpgrpc"
-	util_log "github.com/grafana/loki/pkg/util/log"
+	"github.com/mar4uk/loki/pkg/lokifrontend/frontend/v2/frontendv2pb"
+	"github.com/mar4uk/loki/pkg/querier/stats"
+	lokigrpc "github.com/mar4uk/loki/pkg/util/httpgrpc"
+	util_log "github.com/mar4uk/loki/pkg/util/log"
 )
 
 // Config for a Frontend.

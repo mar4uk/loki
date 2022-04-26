@@ -41,7 +41,7 @@ message LokiResponse {
   uint32 limit = 6;
   uint32 version = 7;
   stats.Result statistics = 8 [(gogoproto.nullable) = false, (gogoproto.jsontag) = "statistics"];
-  repeated queryrangebase.PrometheusResponseHeader Headers = 9 [(gogoproto.jsontag) = "-", (gogoproto.customtype) = "github.com/grafana/loki/pkg/querier/queryrange/queryrangebase.PrometheusResponseHeader"];
+  repeated queryrangebase.PrometheusResponseHeader Headers = 9 [(gogoproto.jsontag) = "-", (gogoproto.customtype) = "github.com/mar4uk/loki/pkg/querier/queryrange/queryrangebase.PrometheusResponseHeader"];
 }
 
 message LokiSeriesRequest {
@@ -57,7 +57,7 @@ message LokiSeriesResponse {
   string Status = 1 [(gogoproto.jsontag) = "status"];
   repeated logproto.SeriesIdentifier Data = 2 [(gogoproto.nullable) = false, (gogoproto.jsontag) = "data,omitempty"];
   uint32 version = 3;
-  repeated queryrangebase.PrometheusResponseHeader Headers = 4 [(gogoproto.jsontag) = "-", (gogoproto.customtype) = "github.com/grafana/loki/pkg/querier/queryrange/queryrangebase.PrometheusResponseHeader"];
+  repeated queryrangebase.PrometheusResponseHeader Headers = 4 [(gogoproto.jsontag) = "-", (gogoproto.customtype) = "github.com/mar4uk/loki/pkg/querier/queryrange/queryrangebase.PrometheusResponseHeader"];
 }
 
 message LokiLabelNamesRequest {
@@ -70,12 +70,12 @@ message LokiLabelNamesResponse {
   string Status = 1 [(gogoproto.jsontag) = "status"];
   repeated string Data = 2 [(gogoproto.jsontag) = "data,omitempty"];
   uint32 version = 3;
-  repeated queryrangebase.PrometheusResponseHeader Headers = 4 [(gogoproto.jsontag) = "-", (gogoproto.customtype) = "github.com/grafana/loki/pkg/querier/queryrange/queryrangebase.PrometheusResponseHeader"];
+  repeated queryrangebase.PrometheusResponseHeader Headers = 4 [(gogoproto.jsontag) = "-", (gogoproto.customtype) = "github.com/mar4uk/loki/pkg/querier/queryrange/queryrangebase.PrometheusResponseHeader"];
 }
 
 message LokiData {
   string ResultType = 1 [(gogoproto.jsontag) = "resultType"];
-  repeated logproto.StreamAdapter Result = 2 [(gogoproto.nullable) = false, (gogoproto.jsontag) = "result", (gogoproto.customtype) = "github.com/grafana/loki/pkg/logproto.Stream"];
+  repeated logproto.StreamAdapter Result = 2 [(gogoproto.nullable) = false, (gogoproto.jsontag) = "result", (gogoproto.customtype) = "github.com/mar4uk/loki/pkg/logproto.Stream"];
 }
 
 

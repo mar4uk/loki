@@ -11,7 +11,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/atomic"
 
-	"github.com/grafana/loki/pkg/storage/chunk/client/hedging"
+	"github.com/mar4uk/loki/pkg/storage/chunk/client/hedging"
 )
 
 var metrics = NewBlobStorageMetrics()

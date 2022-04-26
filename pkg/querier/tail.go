@@ -9,10 +9,10 @@ import (
 	"github.com/go-kit/log/level"
 	"github.com/pkg/errors"
 
-	"github.com/grafana/loki/pkg/iter"
-	loghttp "github.com/grafana/loki/pkg/loghttp/legacy"
-	"github.com/grafana/loki/pkg/logproto"
-	util_log "github.com/grafana/loki/pkg/util/log"
+	"github.com/mar4uk/loki/pkg/iter"
+	loghttp "github.com/mar4uk/loki/pkg/loghttp/legacy"
+	"github.com/mar4uk/loki/pkg/logproto"
+	util_log "github.com/mar4uk/loki/pkg/util/log"
 )
 
 const (

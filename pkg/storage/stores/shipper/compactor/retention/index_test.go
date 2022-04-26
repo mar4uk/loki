@@ -8,7 +8,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/grafana/loki/pkg/storage/config"
+	"github.com/mar4uk/loki/pkg/storage/config"
 )
 
 func Test_schemaPeriodForTable(t *testing.T) {

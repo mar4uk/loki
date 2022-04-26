@@ -17,7 +17,7 @@ RUN mkdir -p /loki/rules && \
     mkdir -p /loki/rules-temp && \
     chown -R loki:loki /etc/loki /loki
 
-# See https://github.com/grafana/loki/issues/1928
+# See https://github.com/mar4uk/loki/issues/1928
 RUN [ ! -e /etc/nsswitch.conf ] && echo 'hosts: files dns' > /etc/nsswitch.conf
 
 USER loki

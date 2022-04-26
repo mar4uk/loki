@@ -3,9 +3,9 @@ package gateway
 import (
 	"context"
 
-	"github.com/grafana/loki/operator/internal/external/k8s"
-	"github.com/grafana/loki/operator/internal/manifests"
-	"github.com/grafana/loki/operator/internal/manifests/openshift"
+	"github.com/mar4uk/loki/operator/internal/external/k8s"
+	"github.com/mar4uk/loki/operator/internal/manifests"
+	"github.com/mar4uk/loki/operator/internal/manifests/openshift"
 
 	"github.com/ViaQ/logerr/kverrors"
 	"github.com/go-logr/logr"

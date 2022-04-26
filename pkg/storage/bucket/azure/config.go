@@ -5,7 +5,7 @@ import (
 
 	"github.com/grafana/dskit/flagext"
 
-	"github.com/grafana/loki/pkg/storage/bucket/http"
+	"github.com/mar4uk/loki/pkg/storage/bucket/http"
 )
 
 // Config holds the config options for an Azure backend

@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/grafana/loki/operator/internal/external/k8s/k8sfakes"
-	"github.com/grafana/loki/operator/internal/manifests/openshift"
+	"github.com/mar4uk/loki/operator/internal/external/k8s/k8sfakes"
+	"github.com/mar4uk/loki/operator/internal/manifests/openshift"
 
 	"github.com/ViaQ/logerr/log"
 	"github.com/stretchr/testify/require"

@@ -17,9 +17,9 @@ import (
 	"github.com/prometheus/common/model"
 	"github.com/prometheus/prometheus/model/labels"
 
-	"github.com/grafana/loki/pkg/logproto"
-	"github.com/grafana/loki/pkg/querier/astmapper"
-	"github.com/grafana/loki/pkg/storage/stores/series"
+	"github.com/mar4uk/loki/pkg/logproto"
+	"github.com/mar4uk/loki/pkg/querier/astmapper"
+	"github.com/mar4uk/loki/pkg/storage/stores/series"
 )
 
 const DefaultIndexShards = 32

@@ -6,9 +6,9 @@ import (
 	"os"
 	"testing"
 
-	lokiv1beta1 "github.com/grafana/loki/operator/api/v1beta1"
-	"github.com/grafana/loki/operator/internal/external/k8s/k8sfakes"
-	"github.com/grafana/loki/operator/internal/manifests"
+	lokiv1beta1 "github.com/mar4uk/loki/operator/api/v1beta1"
+	"github.com/mar4uk/loki/operator/internal/external/k8s/k8sfakes"
+	"github.com/mar4uk/loki/operator/internal/manifests"
 
 	"github.com/ViaQ/logerr/log"
 	routev1 "github.com/openshift/api/route/v1"

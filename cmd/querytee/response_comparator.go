@@ -7,9 +7,9 @@ import (
 	"github.com/go-kit/log/level"
 	jsoniter "github.com/json-iterator/go"
 
-	"github.com/grafana/loki/pkg/loghttp"
-	util_log "github.com/grafana/loki/pkg/util/log"
-	"github.com/grafana/loki/tools/querytee"
+	"github.com/mar4uk/loki/pkg/loghttp"
+	util_log "github.com/mar4uk/loki/pkg/util/log"
+	"github.com/mar4uk/loki/tools/querytee"
 )
 
 func compareStreams(expectedRaw, actualRaw json.RawMessage, opts querytee.SampleComparisonOptions) error {

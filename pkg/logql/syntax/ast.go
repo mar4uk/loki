@@ -13,8 +13,8 @@ import (
 	"github.com/prometheus/prometheus/model/labels"
 	"github.com/prometheus/prometheus/promql"
 
-	"github.com/grafana/loki/pkg/logql/log"
-	"github.com/grafana/loki/pkg/logqlmodel"
+	"github.com/mar4uk/loki/pkg/logql/log"
+	"github.com/mar4uk/loki/pkg/logqlmodel"
 )
 
 // Expr is the root expression which can be a SampleExpr or LogSelectorExpr

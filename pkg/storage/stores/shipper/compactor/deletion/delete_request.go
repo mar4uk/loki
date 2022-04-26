@@ -4,7 +4,7 @@ import (
 	"github.com/prometheus/common/model"
 	"github.com/prometheus/prometheus/model/labels"
 
-	"github.com/grafana/loki/pkg/storage/stores/shipper/compactor/retention"
+	"github.com/mar4uk/loki/pkg/storage/stores/shipper/compactor/retention"
 )
 
 type DeleteRequest struct {

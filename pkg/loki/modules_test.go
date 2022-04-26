@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/grafana/loki/pkg/storage/config"
+	"github.com/mar4uk/loki/pkg/storage/config"
 )
 
 func Test_calculateMaxLookBack(t *testing.T) {

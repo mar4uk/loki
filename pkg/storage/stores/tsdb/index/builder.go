@@ -12,7 +12,7 @@ import (
 	"github.com/prometheus/prometheus/model/labels"
 	"github.com/prometheus/prometheus/storage"
 
-	chunk_util "github.com/grafana/loki/pkg/storage/chunk/client/util"
+	chunk_util "github.com/mar4uk/loki/pkg/storage/chunk/client/util"
 )
 
 // Identifier has all the information needed to resolve a TSDB index

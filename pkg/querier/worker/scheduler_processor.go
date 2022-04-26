@@ -24,10 +24,10 @@ import (
 
 	"github.com/grafana/dskit/tenant"
 
-	"github.com/grafana/loki/pkg/lokifrontend/frontend/v2/frontendv2pb"
-	querier_stats "github.com/grafana/loki/pkg/querier/stats"
-	"github.com/grafana/loki/pkg/scheduler/schedulerpb"
-	util_log "github.com/grafana/loki/pkg/util/log"
+	"github.com/mar4uk/loki/pkg/lokifrontend/frontend/v2/frontendv2pb"
+	querier_stats "github.com/mar4uk/loki/pkg/querier/stats"
+	"github.com/mar4uk/loki/pkg/scheduler/schedulerpb"
+	util_log "github.com/mar4uk/loki/pkg/util/log"
 )
 
 func newSchedulerProcessor(cfg Config, handler RequestHandler, log log.Logger, metrics *Metrics) (*schedulerProcessor, []services.Service) {

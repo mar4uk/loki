@@ -10,14 +10,14 @@ import (
 
 	yaml "gopkg.in/yaml.v2"
 
-	"github.com/grafana/loki/clients/pkg/promtail/client"
-	"github.com/grafana/loki/clients/pkg/promtail/limit"
-	"github.com/grafana/loki/clients/pkg/promtail/positions"
-	"github.com/grafana/loki/clients/pkg/promtail/scrapeconfig"
-	"github.com/grafana/loki/clients/pkg/promtail/server"
-	"github.com/grafana/loki/clients/pkg/promtail/targets/file"
+	"github.com/mar4uk/loki/clients/pkg/promtail/client"
+	"github.com/mar4uk/loki/clients/pkg/promtail/limit"
+	"github.com/mar4uk/loki/clients/pkg/promtail/positions"
+	"github.com/mar4uk/loki/clients/pkg/promtail/scrapeconfig"
+	"github.com/mar4uk/loki/clients/pkg/promtail/server"
+	"github.com/mar4uk/loki/clients/pkg/promtail/targets/file"
 
-	"github.com/grafana/loki/pkg/util/flagext"
+	"github.com/mar4uk/loki/pkg/util/flagext"
 )
 
 // Options contains cross-cutting promtail configurations

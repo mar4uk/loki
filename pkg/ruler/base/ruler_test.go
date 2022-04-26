@@ -42,15 +42,15 @@ import (
 
 	"github.com/grafana/dskit/tenant"
 
-	"github.com/grafana/loki/pkg/logproto"
-	"github.com/grafana/loki/pkg/querier/series"
-	"github.com/grafana/loki/pkg/ruler/rulespb"
-	"github.com/grafana/loki/pkg/ruler/rulestore"
-	"github.com/grafana/loki/pkg/ruler/rulestore/objectclient"
-	loki_storage "github.com/grafana/loki/pkg/storage"
-	"github.com/grafana/loki/pkg/storage/chunk/client/hedging"
-	"github.com/grafana/loki/pkg/storage/chunk/client/testutils"
-	"github.com/grafana/loki/pkg/util"
+	"github.com/mar4uk/loki/pkg/logproto"
+	"github.com/mar4uk/loki/pkg/querier/series"
+	"github.com/mar4uk/loki/pkg/ruler/rulespb"
+	"github.com/mar4uk/loki/pkg/ruler/rulestore"
+	"github.com/mar4uk/loki/pkg/ruler/rulestore/objectclient"
+	loki_storage "github.com/mar4uk/loki/pkg/storage"
+	"github.com/mar4uk/loki/pkg/storage/chunk/client/hedging"
+	"github.com/mar4uk/loki/pkg/storage/chunk/client/testutils"
+	"github.com/mar4uk/loki/pkg/util"
 )
 
 func defaultRulerConfig(t testing.TB, store rulestore.RuleStore) Config {

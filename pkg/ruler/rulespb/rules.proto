@@ -3,7 +3,7 @@ syntax = "proto3";
 
 package rules;
 
-option go_package = "github.com/grafana/loki/pkg/ruler/rulespb";
+option go_package = "github.com/mar4uk/loki/pkg/ruler/rulespb";
 
 import "github.com/gogo/protobuf/gogoproto/gogo.proto";
 import "google/protobuf/duration.proto";
@@ -38,10 +38,10 @@ message RuleDesc {
   google.protobuf.Duration for = 4 [(gogoproto.nullable) = false,(gogoproto.stdduration) = true];
   repeated logproto.LegacyLabelPair labels = 5 [
     (gogoproto.nullable) = false,
-    (gogoproto.customtype) = "github.com/grafana/loki/pkg/logproto.LabelAdapter"
+    (gogoproto.customtype) = "github.com/mar4uk/loki/pkg/logproto.LabelAdapter"
   ];
   repeated logproto.LegacyLabelPair annotations = 6 [
     (gogoproto.nullable) = false,
-    (gogoproto.customtype) = "github.com/grafana/loki/pkg/logproto.LabelAdapter"
+    (gogoproto.customtype) = "github.com/mar4uk/loki/pkg/logproto.LabelAdapter"
   ];
 }

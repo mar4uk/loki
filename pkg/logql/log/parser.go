@@ -8,10 +8,10 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/grafana/loki/pkg/logql/log/jsonexpr"
-	"github.com/grafana/loki/pkg/logql/log/logfmt"
-	"github.com/grafana/loki/pkg/logql/log/pattern"
-	"github.com/grafana/loki/pkg/logqlmodel"
+	"github.com/mar4uk/loki/pkg/logql/log/jsonexpr"
+	"github.com/mar4uk/loki/pkg/logql/log/logfmt"
+	"github.com/mar4uk/loki/pkg/logql/log/pattern"
+	"github.com/mar4uk/loki/pkg/logqlmodel"
 
 	"github.com/grafana/regexp"
 	jsoniter "github.com/json-iterator/go"

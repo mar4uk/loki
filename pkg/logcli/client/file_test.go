@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/grafana/loki/pkg/loghttp"
-	"github.com/grafana/loki/pkg/logproto"
+	"github.com/mar4uk/loki/pkg/loghttp"
+	"github.com/mar4uk/loki/pkg/logproto"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

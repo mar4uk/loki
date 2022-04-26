@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/grafana/loki/pkg/ingester"
-	"github.com/grafana/loki/pkg/storage/config"
+	"github.com/mar4uk/loki/pkg/ingester"
+	"github.com/mar4uk/loki/pkg/storage/config"
 
 	"github.com/prometheus/common/model"
 	"github.com/stretchr/testify/require"

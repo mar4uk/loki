@@ -6,7 +6,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/grafana/loki/pkg/util"
+	"github.com/mar4uk/loki/pkg/util"
 )
 
 var allowedIntegrationNames = []string{

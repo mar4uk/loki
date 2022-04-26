@@ -6,14 +6,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/grafana/loki/pkg/loghttp"
+	"github.com/mar4uk/loki/pkg/loghttp"
 
 	"github.com/go-kit/log"
 	"github.com/stretchr/testify/require"
 	"github.com/weaveworks/common/user"
 
-	"github.com/grafana/loki/pkg/logproto"
-	"github.com/grafana/loki/pkg/querier/queryrange/queryrangebase"
+	"github.com/mar4uk/loki/pkg/logproto"
+	"github.com/mar4uk/loki/pkg/querier/queryrange/queryrangebase"
 )
 
 func Test_RangeVectorSplit(t *testing.T) {

@@ -7,7 +7,7 @@ import (
 	"github.com/prometheus/prometheus/model/labels"
 	"github.com/stretchr/testify/require"
 
-	"github.com/grafana/loki/pkg/storage/stores/tsdb/index"
+	"github.com/mar4uk/loki/pkg/storage/stores/tsdb/index"
 )
 
 type LoadableSeries struct {

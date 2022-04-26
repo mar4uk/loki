@@ -30,17 +30,17 @@ import (
 	"github.com/stretchr/testify/require"
 	serverww "github.com/weaveworks/common/server"
 
-	"github.com/grafana/loki/clients/pkg/logentry/stages"
-	"github.com/grafana/loki/clients/pkg/promtail/client"
-	"github.com/grafana/loki/clients/pkg/promtail/config"
-	"github.com/grafana/loki/clients/pkg/promtail/positions"
-	"github.com/grafana/loki/clients/pkg/promtail/scrapeconfig"
-	"github.com/grafana/loki/clients/pkg/promtail/server"
-	file2 "github.com/grafana/loki/clients/pkg/promtail/targets/file"
+	"github.com/mar4uk/loki/clients/pkg/logentry/stages"
+	"github.com/mar4uk/loki/clients/pkg/promtail/client"
+	"github.com/mar4uk/loki/clients/pkg/promtail/config"
+	"github.com/mar4uk/loki/clients/pkg/promtail/positions"
+	"github.com/mar4uk/loki/clients/pkg/promtail/scrapeconfig"
+	"github.com/mar4uk/loki/clients/pkg/promtail/server"
+	file2 "github.com/mar4uk/loki/clients/pkg/promtail/targets/file"
 
-	"github.com/grafana/loki/pkg/logproto"
-	"github.com/grafana/loki/pkg/util"
-	util_log "github.com/grafana/loki/pkg/util/log"
+	"github.com/mar4uk/loki/pkg/logproto"
+	"github.com/mar4uk/loki/pkg/util"
+	util_log "github.com/mar4uk/loki/pkg/util/log"
 )
 
 const httpTestPort = 9080
