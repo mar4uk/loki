@@ -1,5 +1,5 @@
-//go:build cgo
-// +build cgo
+//go:build cgo && journal_enabled
+// +build cgo,journal_enabled
 
 package journal
 
