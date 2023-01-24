@@ -370,7 +370,7 @@ protos: clean-protos $(PROTO_GOS)
 ifeq ($(BUILD_IN_CONTAINER),true)
 	@mkdir -p $(shell pwd)/.pkg
 	@mkdir -p $(shell pwd)/.cache
-	$(SUDO) docker run $(RM) $(TTY) -i \
+	$(SUDO) docker run --platform=linux/amd64 $(RM) $(TTY) -i \
 		-v $(shell pwd)/.cache:/go/cache$(MOUNT_FLAGS) \
 		-v $(shell pwd)/.pkg:/go/pkg$(MOUNT_FLAGS) \
 		-v $(shell pwd):/src/loki$(MOUNT_FLAGS) \
